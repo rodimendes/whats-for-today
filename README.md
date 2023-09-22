@@ -1,4 +1,4 @@
-# WHATS FOR TODAY
+# WHATS FOR TODAY 🍴
 Project to suggest recipes based on selected ingredients by the user.
 
 ## The ideia
