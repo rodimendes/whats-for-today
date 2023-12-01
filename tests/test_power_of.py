@@ -1,6 +1,7 @@
-import power_of
+from main_code.power_of import power_of
 
 
-def test_power_of():
-    result = power_of(2)
-    assert result == 4
+def test_power():
+    assert power_of(2) == 4
+    assert power_of(3) == 9
+    assert power_of(4) == 16
