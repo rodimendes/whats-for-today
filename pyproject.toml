@@ -3,5 +3,5 @@ now = false
 delay = 5
 runner = "pytest"
 runner_args = []
-patterns = [".py"]
+patterns = ["*.py"]
 ignore_patterns = []
