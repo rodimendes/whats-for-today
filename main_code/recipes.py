@@ -1,6 +1,6 @@
 class Recipes:
     
-    def __init__(self, ingredients: list, main_ingredient: str):
+    def __init__(self, ingredients: list, main_ingredient):
         self.ingredients = ingredients
         self.main_ingredient = main_ingredient
 
