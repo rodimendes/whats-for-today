@@ -1,6 +1,6 @@
 from main_code.recipes import Recipes
 
-test_recipe = Recipes(ingredients=['arroz', 'maionese', 'batata'], main_ingredient='frango')
+test_recipe = Recipes(ingredients=['arroz', 'maionese', 'batata', 'frango'], main_ingredient='frango')
 
 def test_listOfIngredients():
     """
@@ -13,7 +13,7 @@ def test_checkRecipesWithEspecifiedIngredients():
     """
     Check recipes with ingredients passed by the user. The results must be shown sorted.
     """
-    assert sorted(test_recipe.ingredients) == ['arroz', 'batata', 'maionese']
+    assert sorted(test_recipe.ingredients) == ['arroz', 'batata', 'frango', 'maionese']
 
 
 def test_checkPresenceOfAllergicIngredientes():
