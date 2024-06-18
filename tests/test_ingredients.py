@@ -14,6 +14,7 @@ def test_checkRecipesWithEspecifiedIngredients():
     Check recipes with ingredients passed by the user. The results must be shown sorted.
     """
     assert sorted(test_recipe.ingredients) == ['arroz', 'batata', 'frango', 'maionese']
+    assert test_recipe.main_ingredient == 'frango'
 
 
 def test_checkPresenceOfAllergicIngredientes():
